@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:background="#fff"
+    tools:context=".MainActivity">
+    <!--DEF5F8-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Password"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generated Password"
+        android:textSize="16sp"
+        android:textColor="#4E045A"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="26dp"
+        />
+
+    <EditText
+        android:id="@+id/generatedPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:background="#F5E2F8"
+        android:textColor="#9C27B0"
+        android:textColorHint="#4E045A"
+        android:enabled="false"
+        android:textSize="20sp"
+        android:hint="Password will appear here"
+        android:textStyle="normal"
+        android:gravity="center"
+        />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+
+       <TextView
+           android:id="@+id/passwordLengthtxt"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Password Length : 8"
+           android:layout_marginStart="10dp"
+           android:layout_marginTop="20dp"
+           android:textSize="16sp"
+
+           />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Strength :"
+           android:textColor="#9C27B0"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="8dp"
+           android:layout_marginTop="20dp"
+           android:textSize="16sp"
+
+           />
+
+       <TextView
+           android:id="@+id/statustxt"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="good"
+           android:gravity="center"
+           android:background="#F5E2F8"
+           android:padding="4dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginEnd="10dp"
+           android:textSize="16sp"
+
+           />
+
+
+   </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/passwordLengthSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:max="20"
+        android:min="4"
+        style="@style/Widget.Material3.CircularProgressIndicator.Medium"
+        />
+
+    <CheckBox
+        android:id="@+id/incNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Include Numbers"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:checked="true"
+        android:background="#F5E2F8"
+        android:textSize="18sp"
+        />
+
+    <CheckBox
+        android:id="@+id/incUpperCase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Include UpperCase Letters"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:checked="true"
+        android:textSize="18sp"
+        android:background="#F5E2F8"
+        />
+
+    <CheckBox
+        android:id="@+id/incLowerCase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Include LowerCase Letters"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:checked="true"
+        android:textSize="18sp"
+        android:background="#F5E2F8"
+        />
+
+    <CheckBox
+        android:id="@+id/incSymbols"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Include Symbols"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:checked="true"
+        android:textSize="18sp"
+        android:background="#F5E2F8"
+        />
+
+    <!--
+    <CheckBox
+        android:id="@+id/incSpace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Include White Space"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:checked="true"
+        android:textSize="18sp"
+        android:background="#F5E2F8"
+        />
+    -->
+
+    <Button
+        android:id="@+id/generatePasswordBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Password"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <Button
+        android:id="@+id/savePasswordBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Password"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <Button
+        android:id="@+id/viewSavePasswordBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:text="View Save Password"
+        android:textSize="20sp" />
+
+
+
+</LinearLayout>

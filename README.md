@@ -36,6 +36,13 @@ Watch a complete demo of the Password Generator app in action:
 
 [![Watch Demo](screenshots/1pg.png)](screenshots_video/Screen_recording_1pg.mp4)
 
+## 🎥 Demo Video
+
+Download and watch the app demo:  
+👉 [Click here to download video](https://github.com/JigarPrajapati-21/PasswordGenerator-Android/releases/download/v1.0/Screen_recording_1pg.mp4)
+
+
+
 ---
 
 ## 🚀 Getting Started

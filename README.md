@@ -24,7 +24,7 @@ A modern and secure Android application built using Java to generate strong, cus
 
 ## 📸 Screenshots
 
-| ![Home Screen](screenshots_video/1pg.png) | ![Saved Password Screen](screenshots_video/4pg.png) | ![Home Screen](screenshots_video/2pg.png) | ![Saved password Screen](screenshots_video/3pg.png) |
+| ![Home Screen](screenshots_video/1pg.png) | ![Saved Password Screen](screenshots_video/4gp.png) | ![Home Screen](screenshots_video/2pg.png) | ![Saved password Screen](screenshots_video/3pg.png) |
 |-------------------|--------------------|------------------|----------|
 
 ---

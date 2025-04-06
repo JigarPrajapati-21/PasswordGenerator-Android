@@ -45,7 +45,7 @@ Watch a complete demo of the Password Generator app in action:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/password-generator-app.git
+   git clone [https://github.com/your-username/password-generator-app.git](https://github.com/JigarPrajapati-21/PasswordGenerator-Android)
    ```
 
 2. Open the project in **Android Studio**.
